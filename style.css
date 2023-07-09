@@ -1,0 +1,81 @@
+* {
+    /* Global CSS reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.container {
+    /* Calculator container styles */
+    background-color: #6527BE;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    /* Calculator styles */
+    width: fit-content;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+.display {
+    /* Display section styles */
+    height: 100px;
+    margin: 4px;
+    font-size: 40px;
+    text-align: right;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden;
+    user-select: none;
+}
+
+.controls {
+    /* Controls section styles */
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    /* Button group styles */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.btn {
+    /* Button styles */
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    /* Button hover styles */
+    background-color: #6527BE;
+    color: white;
+    font-size: x-large;
+}
+
+.non_numbers {
+    /* Non-number button styles */
+    background-color: cadetblue;
+}
